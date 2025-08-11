@@ -1,0 +1,32 @@
+{
+  "model_id": "test_random_forest_model_20250724_115541",
+  "name": "test_random_forest_model",
+  "version": "1.0.0",
+  "model_type": "regression",
+  "algorithm": "random_forest",
+  "created_at": "2025-07-24T11:55:41.647452",
+  "created_by": "ml_framework",
+  "description": "Model trained with random_forest",
+  "parameters": {
+    "random_state": 42
+  },
+  "performance_metrics": {
+    "mse": 5.4076616134237816e-05,
+    "mae": 0.005822217482155426,
+    "r2": 0.8435841008623018,
+    "rmse": 0.007353680448199923
+  },
+  "feature_names": [
+    "price",
+    "volume",
+    "sma_20",
+    "rsi"
+  ],
+  "target_name": "target",
+  "training_data_hash": "4dbbf345a46c2d23d9975ed3e88494a315c4efd3321285c11c24866ce56e2500",
+  "validation_method": "walk_forward",
+  "cross_validation_scores": {},
+  "feature_importance": null,
+  "tags": [],
+  "is_active": true
+}

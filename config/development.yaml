@@ -1,0 +1,64 @@
+# Development environment configuration
+# Overrides base configuration for development
+
+debug: true
+
+# Development database (can use SQLite for simplicity)
+database:
+  host: "localhost"
+  port: 5432
+  name: "quantframework_dev"
+  user: "dev_user"
+  password: "dev_password"
+
+# More verbose logging in development
+logging:
+  level: "DEBUG"
+  console_output: true
+  file_path: "logs/dev_quantframework.log"
+  structured_file_path: "logs/dev_quantframework.json"
+
+# Relaxed risk limits for testing
+risk_limits:
+  max_position_size: 0.10        # 10% for testing
+  max_sector_exposure: 0.30      # 30% for testing
+  var_limit: 0.05                # 5% VaR limit for testing
+
+# Enable all data sources for development testing
+data_sources:
+  yahoo_finance:
+    enabled: true
+    rate_limit: 1000             # Lower rate limit for development
+  
+  alpha_vantage:
+    enabled: false
+    # API key should be set via environment variable ALPHA_VANTAGE_KEY
+  
+  iex_cloud:
+    enabled: false
+    # API key should be set via environment variable IEX_CLOUD_KEY
+
+# Faster cache expiration for development
+cache:
+  ttl: 300                       # 5 minutes for development
+  max_size: 100
+
+# Development-specific feature engineering
+feature_engineering:
+  data_quality:
+    min_data_points: 50          # Less strict for development
+    max_missing_ratio: 0.10      # Allow more missing data
+
+# Smaller initial capital for development
+backtesting:
+  initial_capital: 10000         # $10,000 for development
+
+# Faster ML training for development
+machine_learning:
+  lstm:
+    epochs: 20                   # Fewer epochs for faster development
+    batch_size: 16               # Smaller batch size
+
+# More frequent monitoring in development
+monitoring:
+  health_check_interval: 60      # 1 minute

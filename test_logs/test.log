@@ -1,0 +1,35 @@
+2025-07-22 00:20:29 - test_logger - DEBUG - Debug message
+2025-07-22 00:20:29 - test_logger - INFO - Info message
+2025-07-22 00:20:29 - test_logger - WARNING - Warning message
+2025-07-22 00:20:29 - test_logger - ERROR - Error message
+2025-07-22 00:20:29 - test_logger - INFO - Structured log message
+2025-07-22 00:20:29 - src.infrastructure.middleware.error_handler - CRITICAL - Error handler failed
+2025-07-22 00:21:10 - test_logger - DEBUG - Debug message
+2025-07-22 00:21:10 - test_logger - INFO - Info message
+2025-07-22 00:21:10 - test_logger - WARNING - Warning message
+2025-07-22 00:21:10 - test_logger - ERROR - Error message
+2025-07-22 00:21:10 - test_logger - INFO - Structured log message
+2025-07-22 00:21:10 - src.infrastructure.middleware.error_handler - CRITICAL - Error handler failed
+2025-07-22 00:21:33 - test_logger - DEBUG - Debug message
+2025-07-22 00:21:33 - test_logger - INFO - Info message
+2025-07-22 00:21:33 - test_logger - WARNING - Warning message
+2025-07-22 00:21:33 - test_logger - ERROR - Error message
+2025-07-22 00:21:33 - test_logger - INFO - Structured log message
+2025-07-22 00:21:33 - src.infrastructure.middleware.error_handler - CRITICAL - Error handler failed
+2025-07-22 00:21:33 - src.infrastructure.middleware.error_handler - CRITICAL - Error handler failed
+2025-07-22 00:21:52 - test_logger - DEBUG - Debug message
+2025-07-22 00:21:52 - test_logger - INFO - Info message
+2025-07-22 00:21:52 - test_logger - WARNING - Warning message
+2025-07-22 00:21:52 - test_logger - ERROR - Error message
+2025-07-22 00:21:52 - test_logger - INFO - Structured log message
+2025-07-22 00:21:52 - src.infrastructure.middleware.error_handler - CRITICAL - Error handler failed
+2025-07-22 00:21:52 - src.infrastructure.middleware.error_handler - CRITICAL - Error handler failed
+2025-07-22 00:21:52 - quantframework - INFO - Dependency injection container initialized successfully
+2025-07-22 00:22:06 - test_logger - DEBUG - Debug message
+2025-07-22 00:22:06 - test_logger - INFO - Info message
+2025-07-22 00:22:06 - test_logger - WARNING - Warning message
+2025-07-22 00:22:06 - test_logger - ERROR - Error message
+2025-07-22 00:22:06 - test_logger - INFO - Structured log message
+2025-07-22 00:22:06 - src.infrastructure.middleware.error_handler - CRITICAL - Error handler failed
+2025-07-22 00:22:06 - src.infrastructure.middleware.error_handler - CRITICAL - Error handler failed
+2025-07-22 00:22:06 - quantframework - INFO - Dependency injection container initialized successfully
